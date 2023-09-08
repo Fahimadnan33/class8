@@ -1,0 +1,207 @@
+body {
+    background-color: lightblue;
+  }
+.box1{
+    border: 3px solid red;
+}
+.box2{
+    border: 3px dotted red;
+}
+.box3{
+    border: 3px dashed red;
+}
+.box4{
+    border: 3px double red;
+}
+.box5{
+    border: 3px groove red;
+}
+.box6{
+    border: 3px ridge red;
+}
+.box7{
+    border: 3px inset red;
+}
+.box8{
+    border: 3px outset red;
+}
+
+#box1 {
+    
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+  .red{
+    border: 2px solid black;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  }
+  .red1{
+    padding: 5px 7px;
+    border: 2px solid black;
+    height: 200px;
+    width: 50%;
+     background-color:green;
+  }
+  .red3{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+  table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+  }
+  th,td{
+    border: 2px solid black;
+    padding: 20px 4px;
+  }
+  .b1{
+    background-color: brown;
+    width: 500px;
+    padding: 10px 20px;
+  }
+  .b2{
+    background-color: brown;
+    max-width: 500px;
+    padding: 10px 20px;
+  }
+.css1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+#main{
+   width: 700px;
+   height: 100px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   
+   align-content: center;
+}
+#main1{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+#myBlueDiv {
+    align-self: center;
+}
+
+.ex1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    text-align: center;
+  }
+    @keyframes mymove {
+    from {left: 0px;}
+    to {left: 150px;}
+  }
+  
+.ex2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: myfirst 5s 5;
+    animation-direction: alternate;
+    text-align: center;
+
+  }
+  
+  @keyframes myfirst {
+    2%   {background: black; left: 0px; top: 0px;}
+    30%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    70%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }
+
+.a1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../imgas/person.jpg);
+    height: 300px;
+    width: 400px;
+    display: block;
+  
+}
+.a2{
+    background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 30px;
+  font-weight: bold;
+}
+.s1{
+
+    border: 10px dotted black;
+    background-color:brown;
+    background-clip:border-box;
+    padding: 15px;
+
+}
+.s2{
+    border: 10px dotted black;
+    padding: 15px;
+    background-color: brown;
+    background-clip: content-box
+}
+.s3{
+    border: 10px dotted black;
+    background-color: brown;
+    padding: 15px;
+    background-clip: padding-box;
+}
+.d1{
+    background-image: url(../imgas/person.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+.f1{
+    border: 2px solid red;
+    padding: 25px;
+    background: url(../imgas/person.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.f2{
+    border: 2px solid red;
+    padding: 25px;
+    background: url(../imgas/person.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+}
+.g1{
+    width: 50%;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 20px grey;
+}
+.g2{
+    width: 50%;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 20px darkmagenta;
+    margin: 40px 0;
+
+}
